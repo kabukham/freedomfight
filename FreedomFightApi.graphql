@@ -1,0 +1,22 @@
+query GetAllEvents {
+  listFreedomFights(limit: 10, filter: {}) {
+    items {
+      dateTime
+      address {
+        address1
+        address2
+        city
+        county
+        id
+        state
+        zipCode
+      }
+      description
+      id
+      image
+      link
+      name
+    }
+    nextToken
+  }
+}

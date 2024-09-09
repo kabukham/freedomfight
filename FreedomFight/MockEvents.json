@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Milwaukee Air and Water Show protest",
+        "description": "description goes here, description goes here. description goes here.description goes here, description goes here.description goes here.description goes here.description goes here.description goes here",
+        "eventDateTime": "2024-07-12T14:30:00Z",
+        "address": {
+            "id": 0,
+            "address1": "6743 S 50th st",
+            "address2": "",
+            "city": "Franklin",
+            "state": "WI",
+            "zipCode": "53132",
+            "county": "Milwaukee"
+        },
+        "sponsors": [
+            "Milwaukee for Palestine",
+            "The March on DNC"
+        ],
+        "link": "link goes here",
+        "image": "https://freedomfight.s3.us-east-1.amazonaws.com/protest1.png"
+    },
+    {
+        "id": 2,
+        "name": "Justice for Devontay Mitchel",
+        "description": "description goes here",
+        "eventDateTime": "2024-07-12T14:30:00Z",
+        "address": {
+            "id": 0,
+            "address1": "6743 S 50th st",
+            "address2": "",
+            "city": "Franklin",
+            "state": "WI",
+            "zipCode": "53132",
+            "county": "Milwaukee"
+        },
+        "sponsors": [
+            "Milwaukee for Palestine",
+            "The March on DNC"
+        ],
+        "link": "link goes here",
+        "image": "https://freedomfight.s3.us-east-1.amazonaws.com/protest1.png"
+    },
+    {
+        "id": 3,
+        "name": "Justice for Daniel Sharp!",
+        "description": "description goes here",
+        "eventDateTime": "2024-07-12T14:30:00Z",
+        "address": {
+            "id": 0,
+            "address1": "6743 S 50th st",
+            "address2": "",
+            "city": "Franklin",
+            "state": "WI",
+            "zipCode": "53132",
+            "county": "Milwaukee"
+        },
+        "sponsors": [
+            "Milwaukee for Palestine",
+            "The March on DNC"
+        ],
+        "link": "link goes here",
+        "image": "https://freedomfight.s3.us-east-1.amazonaws.com/protest1.png"
+    }
+    
+]

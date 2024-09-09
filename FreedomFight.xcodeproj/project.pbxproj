@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7303B3282C6833DF00D10DB6 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303B3272C6833DF00D10DB6 /* LocationViewModel.swift */; };
+		7303B32A2C6856BD00D10DB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7303B3292C6856BD00D10DB6 /* MapView.swift */; };
+		731FA7302C486DF20039C168 /* FreedomFightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA72F2C486DF20039C168 /* FreedomFightApp.swift */; };
+		731FA7322C486DF20039C168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA7312C486DF20039C168 /* ContentView.swift */; };
+		731FA7342C486DF70039C168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731FA7332C486DF70039C168 /* Assets.xcassets */; };
+		731FA7372C486DF70039C168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731FA7362C486DF70039C168 /* Preview Assets.xcassets */; };
+		731FA73E2C486FA60039C168 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA73D2C486FA60039C168 /* SearchView.swift */; };
+		731FA7402C486FB20039C168 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA73F2C486FB20039C168 /* HomeView.swift */; };
+		731FA7422C4870CA0039C168 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA7412C4870CA0039C168 /* Event.swift */; };
+		731FA7442C48745B0039C168 /* MockEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 731FA7432C48745B0039C168 /* MockEvents.json */; };
+		731FA7462C49A1900039C168 /* FetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA7452C49A1900039C168 /* FetchService.swift */; };
+		731FA7482C49A3210039C168 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731FA7472C49A3210039C168 /* ViewModel.swift */; };
+		73E77ACB2C62999A0073E925 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E77ACA2C6299990073E925 /* FavoritesView.swift */; };
+		73FA5A812C4B16CA00D2BCA2 /* EventMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA5A802C4B16CA00D2BCA2 /* EventMap.swift */; };
+		73FA5A842C4B5EE700D2BCA2 /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA5A832C4B5EE700D2BCA2 /* EventDetails.swift */; };
+		73FA5A882C4D986600D2BCA2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA5A872C4D986600D2BCA2 /* LocationManager.swift */; };
+		73FA5A8B2C4F1DE900D2BCA2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA5A8A2C4F1DE800D2BCA2 /* Network.swift */; };
+		73FA5AB22C529ED700D2BCA2 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 73FA5AB12C529ED700D2BCA2 /* Readme */; };
+		73FA5AC32C54837600D2BCA2 /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA5AC22C54837500D2BCA2 /* ResultData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73FA5AC12C52A44D00D2BCA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7303B3272C6833DF00D10DB6 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		7303B3292C6856BD00D10DB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7303B32B2C69201E00D10DB6 /* notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
+		731FA72C2C486DF20039C168 /* FreedomFight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomFight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731FA72F2C486DF20039C168 /* FreedomFightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomFightApp.swift; sourceTree = "<group>"; };
+		731FA7312C486DF20039C168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		731FA7332C486DF70039C168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731FA7362C486DF70039C168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		731FA73D2C486FA60039C168 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		731FA73F2C486FB20039C168 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		731FA7412C4870CA0039C168 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		731FA7432C48745B0039C168 /* MockEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockEvents.json; sourceTree = "<group>"; };
+		731FA7452C49A1900039C168 /* FetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchService.swift; sourceTree = "<group>"; };
+		731FA7472C49A3210039C168 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		73E77ACA2C6299990073E925 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		73FA5A802C4B16CA00D2BCA2 /* EventMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMap.swift; sourceTree = "<group>"; };
+		73FA5A832C4B5EE700D2BCA2 /* EventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
+		73FA5A872C4D986600D2BCA2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		73FA5A8A2C4F1DE800D2BCA2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		73FA5AA42C51A0CE00D2BCA2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FA5AB12C529ED700D2BCA2 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		73FA5AC22C54837500D2BCA2 /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731FA7292C486DF20039C168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731FA7232C486DF20039C168 = {
+			isa = PBXGroup;
+			children = (
+				73FA5AB12C529ED700D2BCA2 /* Readme */,
+				731FA72E2C486DF20039C168 /* FreedomFight */,
+				731FA72D2C486DF20039C168 /* Products */,
+				73FA5AB32C52A40900D2BCA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		731FA72D2C486DF20039C168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731FA72C2C486DF20039C168 /* FreedomFight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731FA72E2C486DF20039C168 /* FreedomFight */ = {
+			isa = PBXGroup;
+			children = (
+				73FA5AA42C51A0CE00D2BCA2 /* Info.plist */,
+				731FA72F2C486DF20039C168 /* FreedomFightApp.swift */,
+				731FA7412C4870CA0039C168 /* Event.swift */,
+				73FA5AC22C54837500D2BCA2 /* ResultData.swift */,
+				73FA5A8A2C4F1DE800D2BCA2 /* Network.swift */,
+				731FA7312C486DF20039C168 /* ContentView.swift */,
+				731FA7472C49A3210039C168 /* ViewModel.swift */,
+				7303B3272C6833DF00D10DB6 /* LocationViewModel.swift */,
+				731FA73F2C486FB20039C168 /* HomeView.swift */,
+				731FA73D2C486FA60039C168 /* SearchView.swift */,
+				73E77ACA2C6299990073E925 /* FavoritesView.swift */,
+				731FA7452C49A1900039C168 /* FetchService.swift */,
+				73FA5A832C4B5EE700D2BCA2 /* EventDetails.swift */,
+				73FA5A802C4B16CA00D2BCA2 /* EventMap.swift */,
+				7303B3292C6856BD00D10DB6 /* MapView.swift */,
+				73FA5A872C4D986600D2BCA2 /* LocationManager.swift */,
+				731FA7432C48745B0039C168 /* MockEvents.json */,
+				731FA7332C486DF70039C168 /* Assets.xcassets */,
+				731FA7352C486DF70039C168 /* Preview Content */,
+				7303B32B2C69201E00D10DB6 /* notes.md */,
+			);
+			path = FreedomFight;
+			sourceTree = "<group>";
+		};
+		731FA7352C486DF70039C168 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				731FA7362C486DF70039C168 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73FA5AB32C52A40900D2BCA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731FA72B2C486DF20039C168 /* FreedomFight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731FA73A2C486DF70039C168 /* Build configuration list for PBXNativeTarget "FreedomFight" */;
+			buildPhases = (
+				73FA5AA32C519EA300D2BCA2 /* Generate Apollo GraphQL API */,
+				731FA7282C486DF20039C168 /* Sources */,
+				731FA7292C486DF20039C168 /* Frameworks */,
+				731FA72A2C486DF20039C168 /* Resources */,
+				73FA5AC12C52A44D00D2BCA2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73FA5A952C4F434800D2BCA2 /* PBXTargetDependency */,
+				73FA5A972C4F434800D2BCA2 /* PBXTargetDependency */,
+				73FA5A992C4F434800D2BCA2 /* PBXTargetDependency */,
+				73FA5A9B2C4F434800D2BCA2 /* PBXTargetDependency */,
+				73FA5A9D2C4F434800D2BCA2 /* PBXTargetDependency */,
+				73FA5A9F2C4F434800D2BCA2 /* PBXTargetDependency */,
+			);
+			name = FreedomFight;
+			packageProductDependencies = (
+			);
+			productName = FreedomFight;
+			productReference = 731FA72C2C486DF20039C168 /* FreedomFight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731FA7242C486DF20039C168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					731FA72B2C486DF20039C168 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 731FA7272C486DF20039C168 /* Build configuration list for PBXProject "FreedomFight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 731FA7232C486DF20039C168;
+			packageReferences = (
+				73FA5AA02C4F44B200D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 731FA72D2C486DF20039C168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731FA72B2C486DF20039C168 /* FreedomFight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731FA72A2C486DF20039C168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FA5AB22C529ED700D2BCA2 /* Readme in Resources */,
+				731FA7372C486DF70039C168 /* Preview Assets.xcassets in Resources */,
+				731FA7442C48745B0039C168 /* MockEvents.json in Resources */,
+				731FA7342C486DF70039C168 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73FA5AA32C519EA300D2BCA2 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/API.swift",
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731FA7282C486DF20039C168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731FA7322C486DF20039C168 /* ContentView.swift in Sources */,
+				73FA5A842C4B5EE700D2BCA2 /* EventDetails.swift in Sources */,
+				73E77ACB2C62999A0073E925 /* FavoritesView.swift in Sources */,
+				73FA5A812C4B16CA00D2BCA2 /* EventMap.swift in Sources */,
+				731FA7402C486FB20039C168 /* HomeView.swift in Sources */,
+				731FA73E2C486FA60039C168 /* SearchView.swift in Sources */,
+				73FA5A8B2C4F1DE900D2BCA2 /* Network.swift in Sources */,
+				7303B32A2C6856BD00D10DB6 /* MapView.swift in Sources */,
+				731FA7302C486DF20039C168 /* FreedomFightApp.swift in Sources */,
+				731FA7462C49A1900039C168 /* FetchService.swift in Sources */,
+				73FA5AC32C54837600D2BCA2 /* ResultData.swift in Sources */,
+				73FA5A882C4D986600D2BCA2 /* LocationManager.swift in Sources */,
+				7303B3282C6833DF00D10DB6 /* LocationViewModel.swift in Sources */,
+				731FA7422C4870CA0039C168 /* Event.swift in Sources */,
+				731FA7482C49A3210039C168 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73FA5A952C4F434800D2BCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 73FA5A942C4F434800D2BCA2 /* Apollo */;
+		};
+		73FA5A972C4F434800D2BCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 73FA5A962C4F434800D2BCA2 /* Apollo-Dynamic */;
+		};
+		73FA5A992C4F434800D2BCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 73FA5A982C4F434800D2BCA2 /* ApolloAPI */;
+		};
+		73FA5A9B2C4F434800D2BCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 73FA5A9A2C4F434800D2BCA2 /* ApolloSQLite */;
+		};
+		73FA5A9D2C4F434800D2BCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 73FA5A9C2C4F434800D2BCA2 /* ApolloTestSupport */;
+		};
+		73FA5A9F2C4F434800D2BCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 73FA5A9E2C4F434800D2BCA2 /* ApolloWebSocket */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		731FA7382C486DF70039C168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		731FA7392C486DF70039C168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731FA73B2C486DF70039C168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreedomFight/Preview Content\"";
+				DEVELOPMENT_TEAM = 44LCA2FPFG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreedomFight/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FreedomFight;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedomfight.watermelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731FA73C2C486DF70039C168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreedomFight/Preview Content\"";
+				DEVELOPMENT_TEAM = 44LCA2FPFG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreedomFight/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FreedomFight;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedomfight.watermelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731FA7272C486DF20039C168 /* Build configuration list for PBXProject "FreedomFight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731FA7382C486DF70039C168 /* Debug */,
+				731FA7392C486DF70039C168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731FA73A2C486DF70039C168 /* Build configuration list for PBXNativeTarget "FreedomFight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731FA73B2C486DF70039C168 /* Debug */,
+				731FA73C2C486DF70039C168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.14.0;
+			};
+		};
+		73FA5AA02C4F44B200D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		73FA5A942C4F434800D2BCA2 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		73FA5A962C4F434800D2BCA2 /* Apollo-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = "Apollo-Dynamic";
+		};
+		73FA5A982C4F434800D2BCA2 /* ApolloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloAPI;
+		};
+		73FA5A9A2C4F434800D2BCA2 /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		73FA5A9C2C4F434800D2BCA2 /* ApolloTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloTestSupport;
+		};
+		73FA5A9E2C4F434800D2BCA2 /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73FA5A892C4F1DCD00D2BCA2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 731FA7242C486DF20039C168 /* Project object */;
+}

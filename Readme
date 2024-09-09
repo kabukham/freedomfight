@@ -1,0 +1,2 @@
+
+ apollo codegen:generate --target=swift --includes=FreedomFightApi.graphql --localSchemaFile=schema.json FreedomFightApi.swift

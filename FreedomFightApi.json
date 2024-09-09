@@ -1,0 +1,110 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Events API",
+    "description": "API for fetching event details",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/events": {
+      "get": {
+        "summary": "Get all events",
+        "responses": {
+          "200": {
+            "description": "A list of events",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Event"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Event": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 1
+          },
+          "name": {
+            "type": "string",
+            "example": "Milwaukee Air and Water Show protest"
+          },
+          "description": {
+            "type": "string",
+            "example": "description goes here, description goes here. description goes here.description goes here, description goes here.description goes here.description goes here.description goes here.description goes here"
+          },
+          "dateTime": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2024-07-12T14:30:00.000Z"
+          },
+          "address": {
+            "$ref": "#/components/schemas/Address"
+          },
+          "sponsors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "Milwaukee for Palestine",
+              "The March on DNC"
+            ]
+          },
+          "link": {
+            "type": "string",
+            "example": "link goes here"
+          },
+          "image": {
+            "type": "string",
+            "example": "TestEvent"
+          }
+        }
+      },
+      "Address": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 0
+          },
+          "address1": {
+            "type": "string",
+            "example": "6743 S 50th st"
+          },
+          "address2": {
+            "type": "string",
+            "example": null
+          },
+          "city": {
+            "type": "string",
+            "example": "Franklin"
+          },
+          "state": {
+            "type": "string",
+            "example": "WI"
+          },
+          "zipCode": {
+            "type": "string",
+            "example": 53132
+          },
+          "county": {
+            "type": "string",
+            "example": "Milwaukee"
+          }
+        }
+      }
+    }
+  }
+}
